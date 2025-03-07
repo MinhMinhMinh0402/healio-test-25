@@ -14,6 +14,10 @@ import {
   FiX
 } from "react-icons/fi";
 
+// Get base path from the environment
+const basePath = "/healio-test-25";
+const useBasePath = (path: string) => `${basePath}${path}`;
+
 interface NavItem {
   title: string;
   href: string;
@@ -33,34 +37,33 @@ export function SidebarNav() {
   const navItems: NavItem[] = [
     {
       title: "Dashboard",
-      href: "/",
+      href: useBasePath("/"),
       icon: FiHome,
     },
     {
       title: "Health Records",
-      href: "/health-records",
+      href: useBasePath("/health-records"),
       icon: FiFileText,
     },
     {
       title: "AI Assistant",
-      href: "/ai-diagnosis",
+      href: useBasePath("/ai-diagnosis"),
       icon: FiActivity,
     },
     {
       title: "Appointments",
-      href: "/appointments",
+      href: useBasePath("/appointments"),
       icon: FiCalendar,
     },
     {
       title: "Profile",
-      href: "/profile",
+      href: useBasePath("/profile"),
       icon: FiUser,
     },
   ];
 
   return (
     <>
-      {/* Mobile menu button */}
       <Button
         variant="ghost"
         size="icon"
@@ -74,12 +77,10 @@ export function SidebarNav() {
         )}
       </Button>
 
-      {/* Sidebar */}
       <div className={cn(
         "sidebar",
         isMobileMenuOpen ? "sidebar-mobile-visible" : "sidebar-mobile-hidden"
       )}>
-        {/* Logo */}
         <div className="p-6 border-b">
           <div className="flex items-center">
             <span className="text-2xl font-bold text-primary">Healio</span>
@@ -87,7 +88,6 @@ export function SidebarNav() {
           <p className="text-sm text-muted-foreground mt-1">Personal Health Platform</p>
         </div>
 
-        {/* Navigation */}
         <nav className="flex-1 p-4">
           <ul className="space-y-1">
             {navItems.map((item) => {
@@ -113,7 +113,6 @@ export function SidebarNav() {
           </ul>
         </nav>
 
-        {/* User section */}
         <div className="border-t p-4">
           <div className="flex items-center gap-3 mb-4">
             <div className="h-10 w-10 rounded-full bg-primary/10 flex items-center justify-center">

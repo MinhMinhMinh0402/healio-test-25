@@ -1,0 +1,98 @@
+# Replit AI Prompt for Healthcare Website Development
+
+```
+Build a professional healthcare platform called MediConnect using React, Next.js, and Tailwind CSS. The website should function as a modern healthcare solution integrating AI diagnostics and secure patient record management.
+
+## Technical Stack Requirements
+- Framework: Next.js (React)
+- Styling: Tailwind CSS
+- State Management: React Context API
+- Responsive: Mobile-first design approach
+
+## Design Requirements
+- Color Scheme: Primary colors of dark blue (#0f172a) and white (#ffffff) with accent colors of teal (#14b8a6) for CTAs
+- Typography: Sans-serif fonts (Inter or similar) for readability
+- UI Components: Clean, minimalist interface with subtle shadows and rounded corners
+- Dark Mode: Implement toggle functionality to protect users' eyes
+
+## Project Structure
+Follow this folder structure:
+```
+/mediconnect
+├── app/
+│   ├── page.tsx                # Home page
+│   ├── diagnosis/page.tsx      # AI diagnosis page
+│   ├── records/page.tsx        # Health records page
+│   ├── consultation/page.tsx   # Chat consultation page
+│   ├── appointments/page.tsx   # Appointment scheduling page
+│   └── profile/page.tsx        # User profile page
+├── components/
+│   ├── common/                 # Reusable UI components
+│   ├── layout/                 # Layout components
+│   ├── features/               # Feature-specific components
+│   └── dashboard/              # Dashboard components
+├── lib/
+│   ├── api.ts                  # API service functions
+│   ├── auth.ts                 # Authentication utilities
+│   └── utils.ts                # Helper functions
+├── styles/                     # Global styles
+└── public/                     # Static assets
+```
+
+## Key Features to Implement
+
+1. **Home Dashboard**:
+   - Navigation with 5 main sections: Home, Diagnosis, Consultation, Appointments, Profile
+   - Activity summary with recent medical notifications
+   - Quick access card to AI diagnosis feature
+   - Health stats visualization component
+
+2. **AI Diagnosis System**:
+   - Symptom input form with categorized medical conditions
+   - File upload for medical images
+   - Results display with visualization of affected areas
+   - Severity indicators and recommended actions
+
+3. **Personal Health Records**:
+   - Secure patient information display
+   - Medical history timeline
+   - Medication tracking component
+   - Test results repository with filtering
+
+4. **Healthcare Consultation**:
+   - AI chatbot interface for preliminary questions
+   - Message thread display with timestamp
+   - Option to escalate to human healthcare provider
+   - File/image attachment capability
+
+5. **Appointment Scheduling**:
+   - Calendar interface for selecting dates/times
+   - Doctor selection component with specialties
+   - Appointment confirmation system
+   - Reminder settings configuration
+
+## UI/UX Requirements
+- Implement smooth page transitions
+- Use skeleton loaders during data fetching
+- Add micro-interactions for better user engagement
+- Ensure accessibility compliance (WCAG 2.1)
+- Design mobile-responsive navigation that transforms to bottom bar on small screens
+
+## Database Schema Suggestion
+Include models for Users, MedicalRecords, Appointments, and DiagnosisResults with appropriate fields and relationships.
+
+Please implement the complete solution with proper component separation, responsive design, and clean code practices.
+```
+
+## Execution Tips for Replit AI
+
+When implementing this project:
+
+1. **Start with core structure** - Begin by setting up the Next.js project and folder structure
+2. **Implement layout first** - Create the main layout with navigation before individual pages
+3. **Focus on functionality** - Build interactive components with proper state management
+4. **Add realistic placeholders** - Use medical-appropriate placeholder data
+5. **Pay attention to accessibility** - Ensure proper contrast ratios and keyboard navigation
+6. **Implement responsive design** - Test across multiple device sizes
+
+This healthcare platform should prioritize both professional appearance and intuitive user experience, making complex medical interactions feel simple and secure. 

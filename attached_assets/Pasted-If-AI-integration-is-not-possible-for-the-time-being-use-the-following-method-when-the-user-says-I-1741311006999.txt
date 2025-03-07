@@ -1,0 +1,47 @@
+If AI integration is not possible for the time being, use the following method: when the user says I'm so tired today, you set up the software to respond:
+Are you feeling tired today? Let Healio help you monitor your health status!
+
+Health improvement suggestions:
+
+Get enough sleep: Rest for at least 7-8 hours to help your body recover.
+Drink water: Provide enough 2-3 liters of water/day to maintain energy.
+Light exercise: Walk for 10-15 minutes to help blood circulation better.
+Eat well: Choose nutritious foods such as green vegetables, fruits, protein.
+Support tools from Healio:
+Track symptoms: Do you have headaches, stress? Enter your symptoms for AI to analyze.
+Connect with a doctor: If you feel the need for professional advice, make an appointment with a doctor now!
+Health Report: Update your health record to track changes over time.
+
+Healio's advice:
+Take some time to relax and take care of yourself! If symptoms persist, don't hesitate to seek medical help.
+When users say: I have a headache, answer them:
+**Healio - Smart Healthcare Assistant** 🤖💙
+
+🔍 **Symptom Check: Headache Detected**
+
+🚨 **Possible Causes:**
+- **Dehydration** 💧 (Did you drink enough water today?)
+- **Stress & Fatigue** 😞 (Have you been overworking or sleeping poorly?)
+- **Eye Strain** 👀 (Too much screen time?)
+- **Migraine or Tension Headache** 🤯 (Any sensitivity to light or nausea?)
+- **Other medical conditions** (High blood pressure, sinus issues, etc.)
+
+🩺 **What You Can Do Now:**
+✅ Drink a glass of water 💦
+✅ Rest in a dark, quiet room 😴
+✅ Apply a cold or warm compress 🧊
+✅ Take deep breaths and relax 🧘
+✅ Avoid screens & bright lights 📵
+
+⚠️ **Seek medical help if you experience:**
+- Severe, sudden headache ⚡
+- Vision problems or dizziness 🌫️
+- Nausea, vomiting 🤢
+- Weakness or numbness on one side of the body 🆘
+
+📊 **Healio Recommendations:**
+📌 Use **AI Symptom Checker** for further analysis
+📌 Log your headache in **Health Records** for tracking patterns
+📌 Schedule an **online doctor consultation** if symptoms persist
+
+💙 **Take care, and let Healio assist you in managing your health!**
